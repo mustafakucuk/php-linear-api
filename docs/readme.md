@@ -1,6 +1,5 @@
 # PHP Linear API Documentation
 
----
 Navigation
 
 - [Auth](auth.md)
