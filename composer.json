@@ -1,0 +1,18 @@
+{
+    "name": "mustafakucuk/php-linear-api",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "xakepehok/array-graphql": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinearApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mustafa KÜÇÜK",
+            "email": "devmustafakucuk@gmail.com"
+        }
+    ]
+}
