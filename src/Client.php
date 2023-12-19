@@ -17,6 +17,7 @@ use LinearApi\Api\UserSettings;
 use LinearApi\Api\User;
 use LinearApi\Api\Cycle;
 use LinearApi\Api\Document;
+use LinearApi\Api\Webhook;
 
 class Client
 {
@@ -54,6 +55,7 @@ class Client
         $this->users = new User($this);
         $this->cycles = new Cycle($this);
         $this->documents = new Document($this);
+        $this->webhooks = new Webhook($this);
     }
     
 
