@@ -20,12 +20,7 @@ class Webhook extends Base
                 'id' => 'String!',
             ],
         ],
-        'delete' => [
-            'mutation' => 'webhookDelete',
-            'variables' => [
-                'id' => 'String!',
-            ],
-        ],
+        'delete' => 'webhookDelete',
     ];
 
     protected function default_nodes()
