@@ -28,23 +28,23 @@ class Client
 
     const API_KEY = null;
 
-    protected $access;
-    protected $auth_method;
-    protected $issues;
-    protected $comments;
-    protected $teams;
-    protected $projects;
-    protected $issue_labels;
-    protected $views;
-    protected $reactions;
-    protected $favorites;
-    protected $api_keys;
-    protected $emojis;
-    protected $user_settings;
-    protected $users;
-    protected $cycles;
-    protected $documents;
-    protected $webhooks;
+    public $access;
+    public $auth_method;
+    public $issues;
+    public $comments;
+    public $teams;
+    public $projects;
+    public $issue_labels;
+    public $views;
+    public $reactions;
+    public $favorites;
+    public $api_keys;
+    public $emojis;
+    public $user_settings;
+    public $users;
+    public $cycles;
+    public $documents;
+    public $webhooks;
 
     public function __construct($api_key, $auth_method = self::AUTH_METHOD)
     {
