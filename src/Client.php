@@ -28,6 +28,24 @@ class Client
 
     const API_KEY = null;
 
+    protected $access;
+    protected $auth_method;
+    protected $issues;
+    protected $comments;
+    protected $teams;
+    protected $projects;
+    protected $issue_labels;
+    protected $views;
+    protected $reactions;
+    protected $favorites;
+    protected $api_keys;
+    protected $emojis;
+    protected $user_settings;
+    protected $users;
+    protected $cycles;
+    protected $documents;
+    protected $webhooks;
+
     public function __construct($api_key, $auth_method = self::AUTH_METHOD)
     {
         if ($api_key) {
