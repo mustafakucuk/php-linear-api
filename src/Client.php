@@ -17,6 +17,7 @@ use LinearApi\Api\UserSettings;
 use LinearApi\Api\User;
 use LinearApi\Api\Cycle;
 use LinearApi\Api\Document;
+use LinearApi\Api\ProjectMilestone;
 use LinearApi\Api\Webhook;
 
 class Client
@@ -45,6 +46,7 @@ class Client
     public $cycles;
     public $documents;
     public $webhooks;
+    public $projectMilestones;
 
     public function __construct($api_key, $auth_method = self::AUTH_METHOD)
     {
@@ -74,6 +76,7 @@ class Client
         $this->cycles = new Cycle($this);
         $this->documents = new Document($this);
         $this->webhooks = new Webhook($this);
+        $this->projectMilestones = new ProjectMilestone($this);
     }
     
 
